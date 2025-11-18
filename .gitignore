@@ -5,3 +5,4 @@ target
 /BREADCRUMBS
 # Criterion seems to vomit this out to CWD. wat.
 /profile.json
+process-repo.log

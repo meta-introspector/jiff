@@ -14,7 +14,7 @@ license = "Unlicense OR MIT"
 categories = ["date-and-time"]
 autotests = false
 edition = "2021"
-rust-version = "1.79"
+# rust-version = "1.79"
 workspace = "../.."
 
 [[bin]]

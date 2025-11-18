@@ -6,7 +6,7 @@ authors = ["Andrew Gallant <jamslam@gmail.com>"]
 license = "Unlicense OR MIT"
 edition = "2021"
 
-[workspace]
+#[workspace]
 
 [lib]
 path = "lib.rs"

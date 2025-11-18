@@ -10,7 +10,7 @@ description = "Integration for Jiff with Diesel."
 categories = ["date-and-time"]
 keywords = ["date", "time", "jiff", "diesel", "zone"]
 edition = "2021"
-rust-version = "1.70"
+# rust-version = "1.70"
 include = ["/src/*.rs", "COPYING", "LICENSE-MIT", "UNLICENSE"]
 
 # Integration crates in Jiff are explicitly isolated from the workspace to
@@ -19,7 +19,7 @@ include = ["/src/*.rs", "COPYING", "LICENSE-MIT", "UNLICENSE"]
 # happening every time I saved a file inside of Jiff proper. So I just ragequit
 # including everything in the same workspace and put integration crates (and
 # examples) into their own little bloated fiefdoms.
-[workspace]
+#[workspace]
 
 [lib]
 name = "jiff_diesel"

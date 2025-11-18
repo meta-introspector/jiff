@@ -7,7 +7,7 @@ edition = "2021"
 # Test programs in Jiff are explicitly isolated from the workspace to avoid
 # dev-dependencies accumulating. (Not all test programs have big dependency
 # trees, but we still exclude them from the workspace as a general rule.)
-[workspace]
+#[workspace]
 
 [dependencies]
 env_logger = "0.11.0"
