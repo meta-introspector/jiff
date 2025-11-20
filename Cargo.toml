@@ -265,9 +265,9 @@ name = "integration"
 # But since there's a fair bit of logic there, it's also worth running tests
 # without debug_assertions enabled to exercise the *actual* code paths used
 # in production.
-[profile.testrelease]
-inherits = "test"
-debug-assertions = false
+# [profile.testrelease]
+# inherits = "test"
+# debug-assertions = false
 
 [package.metadata.docs.rs]
 # We want to document all features.
